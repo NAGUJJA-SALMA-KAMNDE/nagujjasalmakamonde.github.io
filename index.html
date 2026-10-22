@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salma Kamonde Nagujja | Electrical Engineering Portfolio</title>
+<meta name="description" content="Portfolio of Salma Kamonde Nagujja, final-year electrical engineering student at Makerere University: FLISR capstone, distribution line experience and energy training.">
+<style>
+:root{
+  --bg:#f7f7f4; --surface:#ffffff; --text:#1c2321; --muted:#5b6662; --line:#e1e4df;
+  --accent:#0f766e; --accent-ink:#ffffff; --chip:#dff3f0;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121614; --surface:#1a201d; --text:#eef1ee; --muted:#9ba7a1; --line:#2a322e;
+    --accent:#4fd1c5; --accent-ink:#06201d; --chip:#16302d;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121614; --surface:#1a201d; --text:#eef1ee; --muted:#9ba7a1; --line:#2a322e;
+  --accent:#4fd1c5; --accent-ink:#06201d; --chip:#16302d;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header.nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:56px}
+.brand{font-weight:700;letter-spacing:.2px;text-decoration:none;color:var(--text)}
+nav a{margin-left:16px;color:var(--muted);text-decoration:none;font-size:14px}
+nav a:hover{color:var(--accent)}
+@media(max-width:600px){nav a:nth-child(n+4){display:none}}
+.hero{padding:72px 0 56px}
+.eyebrow{color:var(--accent);font-weight:600;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(34px,6vw,56px);line-height:1.1;margin:10px 0 16px}
+.lead{font-size:19px;color:var(--muted);max-width:640px;margin:0 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:44px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.stat b{display:block;font-size:26px;line-height:1.2}
+.stat span{color:var(--muted);font-size:14px}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:28px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{margin:0 0 4px;font-size:18px}
+.meta{color:var(--muted);font-size:14px;margin:0 0 10px}
+.card ul,.job ul{margin:8px 0 0;padding-left:20px}
+.card li,.job li{margin:3px 0}
+.tag{display:inline-block;background:var(--chip);color:var(--accent);font-size:12px;font-weight:600;padding:2px 10px;border-radius:99px;margin-bottom:10px}
+.job{border-left:2px solid var(--accent);padding:0 0 0 20px;margin-bottom:28px}
+.job h3{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:5px 14px;font-size:14px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px}
+h4{margin:0 0 12px;font-size:16px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.edu{list-style:none;padding:0;margin:0}
+.edu li{padding:10px 0;border-bottom:1px solid var(--line)}
+.edu small{color:var(--muted);display:block}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Salma K. Nagujja</a>
+    <nav>
+      <a href="#about">About</a><a href="#capstone">Capstone</a><a href="#experience">Experience</a>
+      <a href="#training">Training</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Electrical Engineering · Makerere University · Kampala</div>
+      <h1>Salma Kamonde Nagujja</h1>
+      <p class="lead">Final-year electrical engineering student with hands-on distribution line experience and a capstone on automating fault response for Kampala's 11 kV network.</p>
+      <div class="btns">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="#capstone">See my capstone</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>BSc EE</b><span>Makerere University, 2022 – present</span></div>
+        <div class="stat"><b>6</b><span>organisations trained or worked with</span></div>
+        <div class="stat"><b>11 kV</b><span>feeder reliability study</span></div>
+        <div class="stat"><b>3</b><span>energy training certificates</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p style="max-width:720px">I started with an electrical installation certificate and a national diploma, worked on distribution line construction with several Ugandan contractors and UMEME, and I am now completing a BSc in Electrical Engineering at Makerere University. My coursework covers both engineering and business management, and I am interested in turning technical work into services that reach people at the grassroots. I work well alone or in a team, and I learn new tools quickly.</p>
+    </div>
+  </section>
+
+  <section id="capstone">
+    <div class="wrap">
+      <h2>Capstone project</h2>
+      <article class="card">
+        <span class="tag">Final-year project · Makerere CEDAT</span>
+        <h3>FLISR for the Kiwatule–Kisaasi 11 kV Feeders</h3>
+        <p class="meta">Fault Location, Isolation and Service Restoration · Ntinda 33/11 kV Substation · Group project</p>
+        <p>A study of how automated fault location, isolation and service restoration could improve reliability on feeders supplied from Ntinda substation, set in the context of Uganda's power sector (UEDCL, ERA, MEMD).</p>
+        <ul>
+          <li>Network modelling and simulation in DIgSILENT PowerFactory</li>
+          <li>Overload analysis, including a conductor upgrade comparison (AACSR 100 mm² against ACSR Rabbit 50 mm²)</li>
+          <li>Reliability index analysis (SAIDI, SAIFI, CAIDI) for the Bukoto, Kisaasi, Kiwatule and Kyambogo feeders</li>
+          <li>Relay coordination in MATLAB/Simulink</li>
+          <li>Cost-benefit analysis in UGX: energy-not-supplied recovery, NPV and payback period</li>
+          <li>Report and presentation produced in Word and LaTeX Beamer</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <h2>Industry experience</h2>
+      <div class="job">
+        <h3>Internship, Tetra Technical Services Ltd</h3>
+        <p class="meta">1 July – 2 August 2024</p>
+        <ul><li>Distribution line construction</li></ul>
+      </div>
+      <div class="job">
+        <h3>Industrial training, Umeme Limited</h3>
+        <p class="meta">1 September – 3 October 2022</p>
+        <ul><li>Worked in the work management centre; computer skills, customer care management and time management</li></ul>
+      </div>
+      <div class="job">
+        <h3>Line construction placement, Tetra Technical Services</h3>
+        <p class="meta">3 October 2021 – 22 July 2022</p>
+        <ul><li>Store management and material reconciliation</li><li>Safety management and line construction</li></ul>
+      </div>
+      <div class="job">
+        <h3>Basama Enterprises and Engineering Ltd</h3>
+        <p class="meta">18–28 August 2021</p>
+        <ul><li>Wiring and pipe work on a 20-room apartment block, accessory fitting and chiselling</li></ul>
+      </div>
+      <div class="job">
+        <h3>Mantab Engineering Services</h3>
+        <p class="meta">June and July 2021</p>
+        <ul>
+          <li>Transformer wiring, earthing and injection at National Water, Rukungiri District</li>
+          <li>Line pegging, line construction and power line relocation</li>
+          <li>Store management, material reconciliation and report writing</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Kasi Technical Services Ltd</h3>
+        <p class="meta">July 2020 – May 2021</p>
+        <ul><li>Power line construction procedures</li><li>Store management, material reconciliation and report writing</li></ul>
+      </div>
+      <div class="job">
+        <h3>Earlier placements</h3>
+        <p class="meta">Megga Technical Services (Nov 2017 – Feb 2018) · Tetra Technical Services (Apr–May 2018)</p>
+        <ul><li>Meter installation, use of electrical equipment, teamwork and customer care</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="training">
+    <div class="wrap">
+      <h2>Training &amp; certificates</h2>
+      <div class="grid">
+        <article class="card"><span class="tag">Mar 2025</span><h3>Geothermal Energy Training</h3><p class="meta">Grassfield Maritime · Ministry of Energy and Mineral Development</p><p>Exploration, drilling technology, power plant operations and regulatory frameworks.</p></article>
+        <article class="card"><span class="tag">Dec 2024</span><h3>Electric Pressure Cooker Repair &amp; Maintenance</h3><p class="meta">CREEC · UNDP</p><p>Three-day training on clean cooking technology.</p></article>
+        <article class="card"><span class="tag">Aug 2023</span><h3>Solar PV, Solar Thermal &amp; Biogas</h3><p class="meta">Makerere University, Department of Physics</p><p>Solar photovoltaic installation and maintenance, solar thermal systems and biogas production.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="two">
+        <div>
+          <h4>Engineering tools</h4>
+          <ul class="chips"><li>DIgSILENT PowerFactory</li><li>MATLAB / Simulink</li><li>Reliability analysis</li><li>Relay coordination</li><li>Cost-benefit analysis</li></ul>
+          <h4 style="margin-top:28px">Documents &amp; office</h4>
+          <ul class="chips"><li>LaTeX / Beamer</li><li>MS Word</li><li>MS Excel</li><li>MS PowerPoint</li></ul>
+        </div>
+        <div>
+          <h4>Field skills</h4>
+          <ul class="chips"><li>Distribution line construction</li><li>Transformer earthing</li><li>Meter installation</li><li>Store &amp; material reconciliation</li><li>Report writing</li><li>Manual driving licence</li></ul>
+          <h4 style="margin-top:28px">Languages</h4>
+          <ul class="chips"><li>English (very fluent)</li><li>Luganda (very fluent)</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <h2>Education</h2>
+      <ul class="edu">
+        <li><b>BSc Electrical Engineering</b><small>Makerere University · 2022 – present</small></li>
+        <li><b>National Diploma in Electrical Engineering (Class II, Credit)</b><small>Buganda Royal Institute of Business and Technical Education · 2018 – 2020</small></li>
+        <li><b>National Certificate in Electrical Installation Systems and Maintenance (First Class)</b><small>Buganda Royal Institute of Business and Technical Education · 2016 – 2017</small></li>
+        <li><b>UACE</b><small>Summaya Girls High School · 2014 – 2015</small></li>
+        <li><b>UCE</b><small>Kinaawa High School · 2010 – 2013</small></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Looking for graduate engineering roles and opportunities in power distribution, renewable energy and project delivery.</p>
+      <p><a class="btn primary" href="mailto:kamondesalma3@gmail.com">kamondesalma3@gmail.com</a></p>
+      <p class="meta">Kampala, Uganda · References available on request</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="y">2026</span> Salma Kamonde Nagujja</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
